@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "werkinxtestapp-20181206115813-authRole",
+            "UnauthRoleArn": "arn:aws:iam::603382598376:role/werkinxtestapp-20181206115813-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::603382598376:role/werkinxtestapp-20181206115813-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "werkinxtestapp-20181206115813-deployment",
+            "UnauthRoleName": "werkinxtestapp-20181206115813-unauthRole",
+            "StackName": "werkinxtestapp-20181206115813",
+            "StackId": "arn:aws:cloudformation:eu-west-1:603382598376:stack/werkinxtestapp-20181206115813/360654b0-f94e-11e8-ac14-0a00435bc49c"
+        }
+    }
+}

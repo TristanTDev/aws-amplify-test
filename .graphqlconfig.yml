@@ -1,0 +1,17 @@
+projects:
+  x-werkin-develop:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        graphQLApiId: q4kb33zt3bcvfbrjtwez3xlccm
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: eu-west-1
+      endpoints:
+        prod: >-
+          https://pez5bmx46relnoif722t6gx4du.appsync-api.eu-west-1.amazonaws.com/graphql
